@@ -1,0 +1,106 @@
+
+textarea{
+  resize: none;
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  font-size: 10px;
+}
+
+body {
+  font-family: "Times New Roman";
+  font-size: 12.5px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(163, 241, 186);
+}
+.Aturan2 {
+  padding-bottom: 1rem;
+  color: blueviolet;
+  margin: auto;
+  font-family: "Arial";
+}
+
+button a {
+  color: black;
+  font-family: "Times New Roman";
+  text-decoration: none;
+  size: 10px;
+}
+
+thead {
+  padding: 1rem;
+}
+
+tbody {
+  margin: 1rem;
+}
+
+.dtabel-IN {
+  margin: left;
+}
+
+.TOP1 {
+  font-family: "Times New Roman";
+  font-size: 25px;
+}
+
+menu {
+  color: blue;
+}
+
+.Aturan1 {
+  margin: 0px 0px 0px 1rem;
+  font-size: 11px;
+  color: black;
+  font-family: "Times New Roman";
+}
+
+.Aturan2 {
+  color: blueviolet;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: "Times New Roman";
+  }
+
+@media screen and (max-width:800px){
+
+  #maincontent{
+    width: auto;
+    float: none;
+  }
+  #sidebar{
+    width: auto;
+    float: none;
+  }
+}
+html{
+    height: 100%;
+}
+
+select:hover {
+  background-color: blanchedalmond;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-header img {
+  width: 100%;
+  height: auto;
+}
+
+option:hover {
+  background-color: rgb(153, 238, 128);
+}
+
+input:hover {
+  background-color: rgb(153, 238, 128);
+}
